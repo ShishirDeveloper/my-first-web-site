@@ -1,0 +1,550 @@
+@media (min-width: 1201px)  {
+
+    .johan-social-2{
+        display: none;
+    }
+    /* ---- something changed ---- */
+
+}
+
+/* Xl Device :1200px. */
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .testimonial-area {
+        background: #F0F3FF;
+        padding: 110px 50px;
+    }
+    .johan-social-2{
+        display: none;
+    }
+    /* ---- something changed ---- */
+
+}
+
+
+/* lg Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .mobile-menu ul li {
+        padding-left: 52px;
+        display: inline-block;
+    }
+
+
+    /* Slider */
+
+    .slider-area {
+        min-height: 703px;
+    }
+
+    .johan-social-2{
+        display: none;
+    }
+    /* ---- something changed ---- */
+    .slider-right {
+        width: 100%;
+    }
+    
+    .slider-right .shape-1 {
+        width: 454px;
+        height: 454px;
+    }
+    
+    .slider-right .shape-img img {
+        width: 86%;
+    }
+    
+    .slider-right .shape-3 {
+        height: 466px;
+        width: 466px;
+    }
+
+
+    .slider-left h1 {
+        font-size: 54px;
+
+    }
+    /* ----- */
+    .my-services {
+        padding-top: 93px;
+        padding-bottom: 92px;
+    }
+    .single-service i {
+        width: 75px;
+        height: 75px;
+        line-height: 81px; 
+    }
+    /* ------ */
+    .about-me-right .shape-bg {
+        width: 453px;
+        height: 500px;
+    }
+    .shape-bg img {
+        width: 94%;
+    }
+    /* ----- */
+    .single-portfolio img {
+        height: 304px;
+    }
+    /* --- */
+    .testimonial-area {
+        background: #F0F3FF;
+        padding: 110px 20px;
+    }
+    .contact-text h1 {
+        margin-bottom: 80px;
+    }
+    .contact-area {
+        padding: 14px 0;
+        padding-top: 100px;
+    }
+    .single-contact h3 {
+        font-size: 16px;
+    }
+    .single-contact i {
+        font-size: 14px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+}
+
+ 
+/* md Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+    .mean-container .mean-bar {
+        background: none;
+    }
+    
+    .mean-container a.meanmenu-reveal{
+        color: #fff;
+        background: linear-gradient(to right, #FF2D6E, rgba(164, 85, 109, 0.45) 100%);
+        text-indent: none;
+        margin-top: -50px;
+        width: 27px;
+        height: 27px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 15px;
+    }
+    .header-area {
+        padding-bottom: 0px;
+
+    }
+    /* header end*/
+    .slider-area {
+        min-height: 488px;
+
+    }
+    .johan-social-2{
+        display: none;
+    }
+    /* ---- something changed ---- */
+   
+    .slider-right {
+        width: 100%;
+    }
+    
+    .slider-right .shape-1 {
+        width: 330px;
+        height: 330px;
+    }
+    
+    .slider-right .shape-img img {
+        width: 79%;
+        margin-top: 66px;
+        margin-left: 39px;
+    }
+    .slider-right .shape-3 {
+        height: 377px;
+        width: 377px;
+        top: -8%;
+        left: -23px;
+    }
+
+
+    .slider-left h1 {
+        font-size: 43px;
+
+    }
+    .slider-left h3 {
+        margin-top: 13px;
+        margin-bottom: 56px;
+    }
+    .slider-hh{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* ----- */
+    .about-me-right{
+        margin-top: 60px;
+    }
+    .single-service {
+        padding: 56px 37px;
+    }
+    .my-services {
+        background: #FBFBFF;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .about-md{
+        text-align: center;
+    }
+    .about-me {
+        padding: 85px 0;
+    }
+    .about-me-left h3 {
+        margin-top: 14px;
+        margin-bottom: 30px;
+    }
+    .about-me-right{
+        margin-left: 60px;
+        /* Modifie after ===============================*/
+    }
+    /* ---- */
+    .padding-left {
+        padding-left: 0rem;
+    }
+    .padding-right {
+        padding-right: 0rem;
+    }
+    /* --- */
+    .testimonial-area {
+        padding: 100px 15px;
+    }
+    .single-testimonial {
+        padding: 0 10px;
+    }
+    /* ----- */
+    .projects-count-area {
+        padding: 100px 0;
+    }
+    .single-contact{
+        margin-bottom: 30px;
+    }
+    .contact-area {
+        background: #0B1229;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+
+}
+
+
+/* SM Device :768px. */
+@media (min-width: 576px) and (max-width: 767px) {
+    .mean-container .mean-bar {
+        background: none;
+    }   
+    .mean-container a.meanmenu-reveal{
+        color: #fff;
+        background: linear-gradient(to right, #FF2D6E, rgba(164, 85, 109, 0.45) 100%);
+        text-indent: none;
+        margin-top: -50px;
+        width: 27px;
+        height: 27px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 15px;
+    }
+    .header-area {
+        padding-bottom: 0px;
+
+    }
+    /* ----- header area */
+    .slider-area {
+        display: block!important;
+        padding-top: 12%;
+        padding-bottom: 77%;
+        padding-bottom: 12%;
+        /* changed something */
+    }
+    .johan-s-h{
+        display: none;
+    }
+    .slider-left h3 {
+        margin-bottom: 6px;
+    }
+    .slider-left{
+        text-align: center;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+   
+    .slider-right {
+        width: 100%;
+        margin-top: 55px;
+    }
+    
+    .slider-right .shape-1 {
+        width: 454px;
+        height: 454px;
+    }
+    
+    .slider-right .shape-img img {
+        width: 86%;
+    }
+    .slider-right .shape-3 {
+        height: 466px;
+        width: 466px;
+    }
+    .johan-social-2 {
+        margin: 0 auto;
+        margin-top: 563px;
+    }
+    /* ------ */
+    
+    .my-services {
+        padding-top: 100px;
+        padding-bottom: 84px;
+    }
+    /* ------ */
+    .about-me {
+        padding: 86px 0;
+    }
+    .about-me-left{
+        text-align: center;
+    }
+    .about-me-left p {
+        padding-right: 0px;
+    }
+    .about-me-left h3 {
+        margin-top: 14px;
+    }
+    .about-me-right .shape-bg {
+        width: 514px;
+    }
+    .about-me-right .shape-bg img {
+        left: 0%;
+    }
+    .about-me-right {
+        margin-top: 50px;
+    }
+    /* ----- */
+    .padding-right {
+        padding-right: 0rem;
+    }
+    .padding-left{
+        padding-left: 0rem;
+    }
+    /* ---- */
+    .projects-count-area {
+        padding: 109px 0;
+        background: #0B1229;
+    }
+    .count-sub-iteam span {
+        font-size: 55px;
+    }
+    /* ---- Testimonial area =============================== */
+    .testimonial-area {
+        padding: 110px 0px;
+    }
+    .testimonials-wrapper{
+        text-align: center;
+    }
+    .testimonials-wrapper img{
+        margin: 0 auto;
+    }
+    /* -------- */
+    .contact-area {
+        padding: 0px 0;
+        padding-top: 80px;
+    }
+    .single-contact{
+        float: left;
+        margin-bottom: 20px;
+    }
+    .single-portfolio img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+/* sm Device :320px. */
+@media (max-width: 575px) {
+    .mean-container .mean-bar {
+        background: none;
+    }   
+    .mean-container a.meanmenu-reveal{
+        color: #fff;
+        background: linear-gradient(to right, #FF2D6E, rgba(164, 85, 109, 0.45) 100%);
+        text-indent: none;
+        margin-top: -50px;
+        width: 27px;
+        height: 27px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 15px;
+    }
+
+    .johan-s-h{
+        display: none;
+    }
+    .slider-left h3 {
+        margin-bottom: 6px;
+    }
+    .johan-social-2 {
+        margin: 0 auto;
+        margin-top: 343px;
+    }
+    .slider-area {
+        display: block!important;
+        padding-top: 12%;
+        padding-bottom: 16%!important;
+        min-height: 601px;
+    }
+    .slider-left h3 {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
+    /* ----- header area */
+    .slider-left h1 {
+        font-size: 38px;
+    }
+    .slider-left h3 {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+    /* Slider */
+    .slider-area {
+        display: block!important;
+        padding-top: 12%;
+        padding-bottom: 77%;
+        min-height: 601px;
+    }
+    .slider-left{
+        text-align: center;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+   
+    .slider-right {
+        width: 100%;
+        margin-top: 55px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slider-right .shape-1 {
+        width: 282px;
+        height: 282px;
+    }
+    
+    .slider-right .shape-img img {
+        width: 86%;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .slider-right .shape-3 {
+        height: 310px;
+        width: 310px;
+        top: -4%;
+        left: -14px;
+
+    }
+    /* servive */
+    .my-services {
+        padding-top: 84px;
+        padding-bottom: 10px;
+    }
+    .single-service {
+        padding: 50px 28px;
+    }
+    
+    /* about me */
+    .about-me {
+        padding: 86px 0;
+    }
+    .about-me-left{
+        text-align: center;
+    }
+    .about-me-left p {
+        padding-right: 0px;
+    }
+    .about-me-left h3 {
+        margin-top: 14px;
+    }
+    .about-me-right .shape-bg {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-me-right .shape-bg img {
+        left: 0%;
+        width: 77%;
+        position: static;
+    }
+    .about-me-right {
+        margin-top: 50px;
+    }
+    /* my skill */
+    .padding-right {
+        padding-right: .7rem;
+    }
+    .padding-left {
+        padding-left: 1rem;
+    }
+    /* portfolio */
+    .my-portfolio-area {
+        padding-bottom: 42px;
+    }
+    .single-portfolio img {
+        height: 100%;
+    }
+    /* count */
+    
+    .projects-count-area {
+        padding: 110px 0;
+        padding-bottom: 38px;
+    }
+    .count-sub-iteam{
+        margin-bottom: 60px;
+    }
+    /* testimonial */
+    .testimonial-area {
+        padding: 110px 0px;
+    }
+    .testimonials-wrapper{
+        text-align: center;
+    }
+    .testimonials-wrapper img{
+        margin: 0 auto;
+    }
+    /* footer */
+    .contact-area {
+        background: #0B1229;
+        padding: 0px 0;
+        padding-top: 60px;
+    }
+    .contact-text h1 {
+        font-size: 30px;
+        margin-bottom: 41px;
+    }
+    .single-contact{
+        float: left;
+        margin-bottom: 20px;
+    }
+    .single-contact h3 {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #fff;
+    }
+}
+
+
+
+
+
+ 

@@ -1,0 +1,593 @@
+/* =========== header area start ============== */
+
+.header-area {
+    padding-top: 33px;
+    padding-bottom: 21px;
+    background: #fff;
+}
+.header-area.sticky.scroll-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgb(0 3 143 / 10%);
+    z-index: 44;
+    transition: .3s;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #FF2D6E;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+.logo a {
+    font-size: 26px;
+    line-height: 51px;
+    font-weight: 700;
+    color: #fff;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu ul li {
+    padding-left: 72px;
+    display: inline-block;
+}
+.mobile-menu ul li a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+    font-weight: 600;
+}
+.mobile-menu ul li a:hover{
+    color: #FF2D6E;
+}
+.mobile-menu ul li:hover > a, .mobile-menu ul li.active > a{
+    color: red;
+}
+
+
+
+/* ---------- */
+
+
+
+/* =========== header area start ============== */
+
+
+/* =========== Slider area start ============== */
+.slider-area{
+    background-color: #F0F3FF;
+    min-height: 833px;
+    display: inherit;
+}
+.slider-left h1 {
+    font-size: 64px;
+    background: linear-gradient(to right, #FF2D6E, rgba(255,0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.slider-left h3 {
+    font-size: 20px;
+    color: #BEBEE3;
+    letter-spacing: 5px;
+    margin-top: 25px;
+    margin-bottom: 58px;
+}
+.johan-social ul li {
+    padding: 9px 14px;
+    background: #fff;
+    margin-right: 13px;
+    border-radius: 7px;
+}
+.johan-social ul li:hover{
+    background: #FF2D6E;
+}
+.johan-social ul li a {
+    color: #596172;
+}
+.johan-social ul li:hover a{
+    color: #fff;
+}
+
+/* ------- */
+
+.slider-right {
+    position: relative;
+    margin-top: -164px;
+    margin-left: 25px;
+}
+.slider-right .shape-1{
+    position:absolute;
+    width: 554px;
+    height: 554px;
+    background:  #FF2D6E;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px 0px rgb(0 3 143 / 10%);
+}
+.slider-right .shape-img{
+    position: absolute;
+
+}
+.slider-right .shape-img img {
+    margin-top: 97px;
+    margin-left: 33px;
+}
+
+.shape-3 {
+    position: absolute;
+    width: 573px;
+    height: 573px;
+    background: transparent;
+    border: 45px solid #fff;
+    top: -2%;
+    left: -9px;
+    border-radius: 50%;
+}
+/* =========== Slider area end ============== */
+
+
+/* =========== My services area start ============== */
+
+.my-services {
+    background: #FBFBFF;
+    padding-top: 150px;
+    padding-bottom: 138px;
+}
+.my-srvices-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.my-srvices-header p {
+    font-size: 17px;
+    color: #4F4F4F;
+    margin-top: 26px;
+    margin-bottom: 73px;
+}
+/* ----- */
+.single-service {
+    padding: 64px 70px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    transition: .3s all ease;
+    border: 2px solid #F1F4F5;
+}
+.single-service:hover{
+    background: #FF2D6E;
+}
+.single-service:hover i{
+    background: #fff;
+    color: #FF2D6E
+}
+.single-service:hover h2{
+    color: #fff;
+}
+.single-service h2 a:hover{
+    color: #fff;
+}
+.single-service:hover p{
+    color: #fff;
+}
+.single-service i {
+    width: 84px;
+    height: 84px;
+    background: #FF2D6E;
+    text-align: center;
+    line-height: 4;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 23px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.single-service h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 46px;
+    margin-bottom: 20px;
+}
+.single-service p {
+    font-size: 16px;
+    color: #919192;
+}
+
+/* ----- */
+.single-service i.hovere{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    transform: .3s all ease;
+}
+.single-service:hover i.hovere{
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+}
+
+.single-service:hover i{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+/* =========== My services area end ============== */
+
+
+/* =========== About me area start ============== */
+.about-me {
+    background: #F0F3FF;
+    padding: 124px 0;
+}
+.about-me-left h1 {
+    font-size: 48px;
+    background: linear-gradient(to right, #FF2D6E, rgba(255,0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.about-me-left h3 {
+    font-size: 20px;
+    color: #BEBEE3;
+    letter-spacing: 5px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+.about-me-left p {
+    font-size: 16px;
+    color: #8383B0;
+    line-height: 26px;
+    margin-bottom: 34px;
+    padding-right: 102px;
+}
+.about-me-left .about-btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #171717;
+    font-weight: 600;
+    padding: 14px 20px;
+    border-radius: 7px;
+    border: none;
+    transition: .3s;
+}
+.about-me-left .about-btn:hover{
+    background: #FF2D6E;
+    color: #fff;
+}
+/* --- */
+.about-me-right .shape-bg{
+    width: 572px;
+    height: 597px;
+    background: #FF2D6E;
+    position: relative;
+}
+.about-me-right .shape-bg img {
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+}
+/* =========== About area end ============== */
+
+
+/* =========== Skill area start ============== */
+
+
+.barfiller {
+    width: 100%;
+    height: 22px;
+    background: #fcfcfc;
+    border: 0px solid #ccc;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: inset 1px 4px 9px -6px rgb(0 0 0 / 50%);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+}
+  
+  .barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #333;
+    z-index: 1;
+  }
+  
+  .barfiller .tipWrap { display: none; }
+  
+  .barfiller .tip {
+    margin-top: -43px;
+    font-size: 20px;
+    color: #fff;
+    left: 0px;
+    position: absolute;
+    font-weight: 600;
+    z-index: 2;
+}
+  
+  .barfiller .tip:after {
+    border: solid;
+    border-color: rgba(0,0,0,.8) transparent;
+    border-width: 6px 6px 0 6px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 100%;
+    z-index: 9
+  }
+  /* --------- */
+  .my-skill-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #0B1229;
+}
+.scroll-wrapper{
+    overflow: hidden;
+}
+
+.my-skill-headline h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    background: linear-gradient(to right, #FF2D6E, rgba(255,0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.scroll-wrapper h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.padding-right {
+    padding-right: 6rem;
+}
+.padding-left{
+    padding-left: 6rem;
+}
+
+  /* =========== Skill area end ============== */
+
+
+  /* ======== My portfolio area start ========= */
+  .my-portfolio-area {
+    padding-top: 108px;
+    padding-bottom: 110px;
+    background: #E5E5E5;
+}
+  .my-portfolio-text h1{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .my-portfolio-text p{
+    font-size: 17px;
+    color: #4F4F4F;
+    margin-top: 26px;
+    margin-bottom: 73px;
+  }
+  .single-portfolio {
+    position: relative;
+    margin-bottom: 29px;
+}
+  .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FF2D6E;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+  .single-portfolio:hover .portfolio-hover{
+    opacity: .9;
+  }
+  .single-portfolio img {
+    width: 100%;
+    height: 368px;
+}
+  .portfolio-hover-content {
+    position: absolute;
+    bottom: 3%;
+    right: 9%;
+    margin-bottom: 22px;
+}
+  .portfolio-hover-content h3 a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.portfolio-hover-content p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 4px;
+}
+
+.portfolio-hover i {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 37%;
+}
+  /* ======= My portfolio area end =========== */
+
+
+  /* ======= Projects Count area start =========== */
+
+  .projects-count-area{
+      padding: 170px 0;
+      background: #0B1229;
+  }
+  
+
+.count-sub-iteam span {
+    font-size: 64px;
+    font-weight: 600;
+    background: linear-gradient(to right, #FF2D6E, rgba(164, 85, 109, 0.45) 100%); ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.count-sub-iteam p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 11px;
+}
+  /* ======= Projects Count area end =========== */
+
+
+  /* ======= Testimonial area start =========== */
+  .testimonial-area{
+      background: #F0F3FF;
+      padding: 110px 250px;
+  }
+ 
+  .single-testimonial img{
+      height: 168px;
+      width: 170px;
+  }
+  .single-testimonial h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 57px;
+    margin-bottom: 27px;
+}
+.single-testimonial p {
+    font-size: 18px;
+    padding-right: 29px;
+    margin-bottom: 20px;
+}
+.testi-address h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+/* ------- */
+.slick-dots{
+	display: flex!important;
+	list-style: none;
+    justify-content: center;
+    margin-top: 35px;
+}
+.slick-dots .slick-active button{
+	background: #FF2D6E;
+}
+.slick-dots li{
+	margin-right: 13px;
+	
+	
+}
+.slick-dots button {
+    display: block;
+    font-size: 0px;
+    border: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: #C4C4C4;
+}
+  /* ======= Testimonial area end =========== */
+
+
+
+
+
+
+
+
+  /* ======= Contract area start=========== */
+  .contact-area{
+      background: #0B1229;
+      padding: 110px 0;
+  }
+
+  .contact-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 110px;
+    background: linear-gradient(to right, #FF2D6E, rgba(255,0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .heightc{
+    height: 150px!important;
+} */
+textarea.form-control {
+    min-height: 213px;
+}
+.form-floating {
+    margin-bottom: 22px;
+}
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-floating>label {
+    padding: 2rem 0.75rem;
+
+}
+.form-control {
+    font-size: 16px;
+    font-weight: 400;
+    color: #596172;
+}
+.form-floating>.form-control, .form-floating>.form-select {
+    height: 60px;
+    line-height: 1.25;
+}
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 3.000rem;
+    padding-left: 23px;
+    padding-bottom: -0.375rem!important;
+}
+.form-floating>label {
+    top: 0px;
+    left: 16px;
+}
+floating>.form-control:not(:placeholder-shown) #form-message {
+    padding-top: 3.625rem;
+
+}
+
+
+
+
+
+.single-contact i {
+    font-size: 19px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right, #FF2D6E, rgba(164, 85, 109, 0.45) 100%);
+    display: inline-block;
+    line-height: 47px;
+    border-radius: 28px;
+    text-align: center;
+}
+.single-contact h3 {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #fff;
+    
+}
+.contact-bottom {
+    padding-top: 146px;
+    padding-bottom: 51px;
+}
+  /* ======= Contract area end =========== */
+  
